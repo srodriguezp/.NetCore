@@ -1,0 +1,63 @@
+﻿@page "/"
+@using MauiBlazorFiles.Models;
+@using System.Text.Json
+@using System.IO
+
+
+<h3>Lista de Tareas (@ListaTareas.Count(todo => !todo.IsDone))</h3>
+<h5>(Guardada en Archivos de texto)</h5>
+<br />
+<input placeholder="Escriba la tarea" @bind="nuevaTarea" />
+<button @onclick="AgregarTarea">Agregar Tarea</button>
+<br />
+<br />
+
+<ul class="list-unstyled">
+    @foreach (var todo in ListaTareas)
+    {
+        <li>
+            <input type="checkbox" @bind="todo.IsDone" />
+            <input @bind="todo.Title" />
+        </li>
+    }
+</ul>
+
+
+@code {
+    private List<TodoItem> ListaTareas = new();
+    private string? nuevaTarea;
+
+    private void AgregarTarea()
+    {
+        if (!string.IsNullOrWhiteSpace(nuevaTarea))
+        {
+            ListaTareas.Add(new TodoItem { Title = nuevaTarea });
+            GuardaEnArchivo();
+            nuevaTarea = string.Empty;
+        }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        LeeDeArchivo();
+    }
+
+    private async Task LeeDeArchivo()
+    {
+        var path = Path.Combine(FileSystem.AppDataDirectory, "todo.json");
+        if (!File.Exists(path))
+            return;
+        var contents = File.ReadAllText(path);
+        var savedItems = JsonSerializer.Deserialize<List<TodoItem>>(contents);
+        ListaTareas.Clear();
+        ListaTareas.AddRange(savedItems);
+    }
+
+    private async Task GuardaEnArchivo()
+    {
+        var contents = JsonSerializer.Serialize(ListaTareas);
+        var path = Path.Combine(FileSystem.AppDataDirectory, "todo.json");
+        File.WriteAllText(path, contents);
+        await App.Current.MainPage.DisplayAlert("List Saved", $"List has been saved to {path}", "OK");
+    }
+}
