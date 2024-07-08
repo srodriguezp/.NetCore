@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\1) PrimerAppMAUIBlazor\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\PrimeraMAUIBlazor.styles.css",
+      "PackagePath": "staticwebassets\\PrimeraMAUIBlazor.styles.css"
+    },
+    {
+      "Id": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\1) PrimerAppMAUIBlazor\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\1) PrimerAppMAUIBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\1) PrimerAppMAUIBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\1) PrimerAppMAUIBlazor\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\1) PrimerAppMAUIBlazor\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.PrimeraMAUIBlazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.build.PrimeraMAUIBlazor.props",
+      "PackagePath": "build\\PrimeraMAUIBlazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildMultiTargeting.PrimeraMAUIBlazor.props",
+      "PackagePath": "buildMultiTargeting\\PrimeraMAUIBlazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildTransitive.PrimeraMAUIBlazor.props",
+      "PackagePath": "buildTransitive\\PrimeraMAUIBlazor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

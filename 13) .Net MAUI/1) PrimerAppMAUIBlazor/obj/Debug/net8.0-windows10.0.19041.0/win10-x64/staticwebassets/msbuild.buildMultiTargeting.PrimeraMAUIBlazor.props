@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PrimeraMAUIBlazor.props" />
+</Project>

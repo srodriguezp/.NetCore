@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\4) TodoSQLiteMAUIBlazor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6A5D1B-12C6-4196-B32F-B5EC58B86093}|TodoSQLiteMaui.csproj|d:\\profesantiago\\dotnetcore\\13) .net maui\\4) todosqlitemauiblazor\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD6A5D1B-12C6-4196-B32F-B5EC58B86093}|TodoSQLiteMaui.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6A5D1B-12C6-4196-B32F-B5EC58B86093}|TodoSQLiteMaui.csproj|d:\\profesantiago\\dotnetcore\\13) .net maui\\4) todosqlitemauiblazor\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6A5D1B-12C6-4196-B32F-B5EC58B86093}|TodoSQLiteMaui.csproj|solutionrelative:models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6A5D1B-12C6-4196-B32F-B5EC58B86093}|TodoSQLiteMaui.csproj|d:\\profesantiago\\dotnetcore\\13) .net maui\\4) todosqlitemauiblazor\\services\\todoitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6A5D1B-12C6-4196-B32F-B5EC58B86093}|TodoSQLiteMaui.csproj|solutionrelative:services\\todoitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TodoItemService.cs",
+              "DocumentMoniker": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\4) TodoSQLiteMAUIBlazor\\Services\\TodoItemService.cs",
+              "RelativeDocumentMoniker": "Services\\TodoItemService.cs",
+              "ToolTip": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\4) TodoSQLiteMAUIBlazor\\Services\\TodoItemService.cs",
+              "RelativeToolTip": "Services\\TodoItemService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T21:20:34.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TodoItem.cs",
+              "DocumentMoniker": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\4) TodoSQLiteMAUIBlazor\\Models\\TodoItem.cs",
+              "RelativeDocumentMoniker": "Models\\TodoItem.cs",
+              "ToolTip": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\4) TodoSQLiteMAUIBlazor\\Models\\TodoItem.cs",
+              "RelativeToolTip": "Models\\TodoItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T21:24:09.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\4) TodoSQLiteMAUIBlazor\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
+              "ToolTip": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\4) TodoSQLiteMAUIBlazor\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-07T21:18:36.636Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

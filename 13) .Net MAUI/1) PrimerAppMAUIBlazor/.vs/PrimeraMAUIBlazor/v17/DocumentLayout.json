@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\1) PrimerAppMAUIBlazor\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6176A9D7-B381-4DD7-8D9F-E31CD37FB368}|PrimeraMAUIBlazor.csproj|d:\\profesantiago\\dotnetcore\\13) .net maui\\1) primerappmauiblazor\\components\\pages\\todo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6176A9D7-B381-4DD7-8D9F-E31CD37FB368}|PrimeraMAUIBlazor.csproj|solutionrelative:components\\pages\\todo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Todo.razor",
+              "DocumentMoniker": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\1) PrimerAppMAUIBlazor\\Components\\Pages\\Todo.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Todo.razor",
+              "ToolTip": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\1) PrimerAppMAUIBlazor\\Components\\Pages\\Todo.razor",
+              "RelativeToolTip": "Components\\Pages\\Todo.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T15:09:00.626Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,64 @@
+﻿@page "/"
+@using TodoSQLiteMaui.Models
+@using TodoSQLiteMaui.Services
+@using Microsoft.Maui.Storage
+
+<h3>Lista de Tareas (@ListaTareas.Count(todo => !todo.IsDone))</h3>
+
+<input placeholder="Escriba la tarea" @bind="NombreTareaNueva" />
+<button @onclick="AgregarTarea">Agregar Tarea</button>
+<br />
+<br />
+
+<ul class="list-unstyled">
+    @foreach (var todo in ListaTareas)
+    {
+        <li>
+            <input type="checkbox" @bind="todo.IsDone" />
+            <input @bind="todo.Name" />
+        </li>
+    }
+</ul>
+
+@code {
+    TodoItem NuevaTareaGuardar;
+    private List<TodoItem> ListaTareas = new();
+    private string NombreTareaNueva;
+
+    TodoItemService servicioBaseDatos = new TodoItemService();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Delay(500);
+        ListaTareas = await servicioBaseDatos.ConsultaTodasLasTareas();
+    }
+
+    private async void AgregarTarea()
+    {
+        if (!string.IsNullOrWhiteSpace(NombreTareaNueva))
+        {
+            NuevaTareaGuardar = new TodoItem
+            {
+                Name = NombreTareaNueva,
+                Notes = "",
+                IsDone = false
+            };
+
+            ListaTareas.Add(NuevaTareaGuardar);
+            var response = await servicioBaseDatos.GuardarTareaEnBD(NuevaTareaGuardar);
+            NombreTareaNueva = string.Empty;
+
+            if (response > 0)
+            {
+                await Application.Current.MainPage.DisplayAlert("Tarea guardada exitosamente", "Se ha guardado la tarea: " + NuevaTareaGuardar.Name, "OK");
+            }
+            
+        }
+        else
+        {
+            await Application.Current.MainPage.DisplayAlert("Nombre de la tarea requerido", "Por favor digite el nombre de la tarea a guardar", "OK");
+            return;
+        }
+    }
+
+}
