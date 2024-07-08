@@ -18,7 +18,7 @@ namespace TodoSQLiteMaui
             builder.Services.AddMauiBlazorWebView();
 
 #if DEBUG
-            builder.Services.AddSingleton<TodoItemService>(); //Registramos nuestro servicio aquí
+            //builder.Services.AddSingleton<TodoItemService>(); //Registramos nuestro servicio aquí
     		builder.Services.AddBlazorWebViewDeveloperTools();
     		builder.Logging.AddDebug();
 #endif

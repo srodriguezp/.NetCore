@@ -1,7 +1,6 @@
 ﻿@page "/"
 @using TodoSQLiteMaui.Models
 @using TodoSQLiteMaui.Services
-@using Microsoft.Maui.Storage
 
 <h3>Lista de Tareas (@ListaTareas.Count(todo => !todo.IsDone))</h3>
 
@@ -50,13 +49,15 @@
 
             if (response > 0)
             {
-                await Application.Current.MainPage.DisplayAlert("Tarea guardada exitosamente", "Se ha guardado la tarea: " + NuevaTareaGuardar.Name, "OK");
+                await Application.Current.MainPage.DisplayAlert("Tarea guardada exitosamente", 
+                "Se ha guardado la tarea: " + NuevaTareaGuardar.Name, "OK");
             }
             
         }
         else
         {
-            await Application.Current.MainPage.DisplayAlert("Nombre de la tarea requerido", "Por favor digite el nombre de la tarea a guardar", "OK");
+            await Application.Current.MainPage.DisplayAlert("Nombre de la tarea requerido", 
+            "Por favor digite el nombre de la tarea a guardar", "OK");
             return;
         }
     }

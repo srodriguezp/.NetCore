@@ -1,4 +1,5 @@
-﻿using SQLite;
+﻿
+using SQLite;
 using TodoSQLiteMaui.Models;
 
 namespace TodoSQLiteMaui.Services;
