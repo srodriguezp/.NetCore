@@ -1,0 +1,34 @@
+﻿@page "/todo"
+@using PrimeraMAUIBlazor.Models;
+
+<h3>Lista de Tareas (@ListaTareas.Count(todo => !todo.IsDone))</h3>
+
+<input placeholder="Escriba la tarea" @bind="nuevaTarea" />
+<button @onclick="AgregarTarea">Agregar Tarea</button>
+<br />
+<br />
+
+<ul class="list-unstyled">
+    @foreach (var todo in ListaTareas)
+    {
+        <li>
+            <input type="checkbox" @bind="todo.IsDone" />
+            <input @bind="todo.Title" />
+        </li>
+    }
+</ul>
+
+@code {
+    private List<TodoItem> ListaTareas = new();
+    private string? nuevaTarea;
+
+    private void AgregarTarea()
+    {
+        if (!string.IsNullOrWhiteSpace(nuevaTarea))
+        {
+            ListaTareas.Add(new TodoItem { Title = nuevaTarea });
+            nuevaTarea = string.Empty;
+        }
+    }
+
+}

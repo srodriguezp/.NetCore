@@ -1,0 +1,35 @@
+﻿@page "/"
+
+<h1>Primer Hola Mundo</h1>
+
+<p>
+    Digite su nombre:
+    <input placeholder="Escriba su nombre" @bind="nombreDigitado" />
+    <button class="bth btn-primary" @onclick="holaMundo"> Saludar </button>
+    <br /><br />
+
+    Su nombre es:
+    <input type="text" @bind="nombreDigitado" />
+    <br /><br />
+    <hr />
+
+    <button class="bth btn-primary" @onclick="revisaConexion"> Revisar la conexión a Internet </button>
+</p>
+
+@code {
+    private string? nombreDigitado;
+
+    private async void holaMundo()
+    {
+        await Application.Current.MainPage.DisplayAlert("Saludo", "Hola " + nombreDigitado, "Aceptar");
+        nombreDigitado = "";
+    }
+
+    private async void revisaConexion()
+    {
+        var hayInternet = Connectivity.Current.NetworkAccess == NetworkAccess.Internet;
+        var tipoInternet = Connectivity.Current.ConnectionProfiles.FirstOrDefault();
+        await Application.Current.MainPage.DisplayAlert("Internet", $"Conexión?: {hayInternet},  Tipo: {tipoInternet}", "Aceptar");
+    }
+
+}

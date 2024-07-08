@@ -11,13 +11,15 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("EFSQLiteVSCode")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("PrimeraMAUIBlazor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59a47e16dc0824a868a90241f8dad468778330b7")]
-[assembly: System.Reflection.AssemblyProductAttribute("EFSQLiteVSCode")]
-[assembly: System.Reflection.AssemblyTitleAttribute("EFSQLiteVSCode")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+59a47e16dc0824a868a90241f8dad468778330b7")]
+[assembly: System.Reflection.AssemblyProductAttribute("PrimeraMAUIBlazor")]
+[assembly: System.Reflection.AssemblyTitleAttribute("PrimeraMAUIBlazor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Runtime.Versioning.TargetPlatformAttribute("Android34.0")]
+[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Android24.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
 
