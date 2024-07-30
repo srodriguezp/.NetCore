@@ -4,8 +4,8 @@
 
 <h3>Lista de Tareas (@ListaTareas.Count(todo => !todo.IsDone))</h3>
 
-<input placeholder="Escriba la tarea" @bind="NombreTareaNueva" />
-<button @onclick="AgregarTarea">Agregar Tarea</button>
+<input placeholder="Escriba la tarea" @bind="NombreTareaAGuardar" />
+<button @onclick="AgregarTarea">Guardar Tarea</button>
 <br />
 <br />
 
@@ -13,8 +13,8 @@
     @foreach (var todo in ListaTareas)
     {
         <li>
-            <input type="checkbox" @bind="todo.IsDone" />
-            <input @bind="todo.Name" />
+            <input type="checkbox" onclick="@(()=> muestraNombreSeleccionado(""))" @bind="todo.IsDone" />
+            <input id="@todo.ID" @bind="todo.Name" />
         </li>
     }
 </ul>
@@ -22,7 +22,7 @@
 @code {
     TodoItem NuevaTareaGuardar;
     private List<TodoItem> ListaTareas = new();
-    private string NombreTareaNueva;
+    private string NombreTareaAGuardar;
 
     TodoItemService servicioBaseDatos = new TodoItemService();
 
@@ -32,20 +32,25 @@
         ListaTareas = await servicioBaseDatos.ConsultaTodasLasTareas();
     }
 
+    private void muestraNombreSeleccionado(string nombreSeleccionado)
+    {
+        NombreTareaAGuardar = nombreSeleccionado;
+    }
+
     private async void AgregarTarea()
     {
-        if (!string.IsNullOrWhiteSpace(NombreTareaNueva))
+        if (!string.IsNullOrWhiteSpace(NombreTareaAGuardar))
         {
             NuevaTareaGuardar = new TodoItem
             {
-                Name = NombreTareaNueva,
+                Name = NombreTareaAGuardar,
                 Notes = "",
                 IsDone = false
             };
 
             ListaTareas.Add(NuevaTareaGuardar);
             var response = await servicioBaseDatos.GuardarTareaEnBD(NuevaTareaGuardar);
-            NombreTareaNueva = string.Empty;
+            NombreTareaAGuardar = string.Empty;
 
             if (response > 0)
             {

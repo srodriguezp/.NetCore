@@ -1,0 +1,25 @@
+﻿@page "/counter"
+@inject NavigationManager navigationManager
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+<br />
+<br />
+<button class="btn btn-success" @onclick="SiguientePagina"> Siguiente página </button>
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+
+    private async void SiguientePagina()
+    {
+        navigationManager.NavigateTo("parametros/" + currentCount);
+    }
+}

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MauiBlazorFiles")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+c8b65623fc7f48d7d3550556182faaee15776a9b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+446c9999371f815c9c5255e820591c146f2ac933")]
 [assembly: System.Reflection.AssemblyProductAttribute("MauiBlazorFiles")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MauiBlazorFiles")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,50 @@
+﻿@page "/updateTodo"
+
+@using TodoSQLiteMaui.Models
+@using TodoSQLiteMaui.Services
+
+<h3>Tarea a modificar </h3>
+
+<input placeholder="Escriba la tarea" @bind="NuevoNombreTarea" />
+<button @onclick="AgregarTarea">Guardar Tarea</button>
+<br />
+<br />
+
+@code {
+    private string NuevoNombreTarea;
+    TodoItem NuevaTareaGuardar;
+    TodoItemService servicioBaseDatos = new TodoItemService();
+
+    protected override async Task OnInitializedAsync()
+    {
+    }
+
+    private async void AgregarTarea()
+    {
+        if (!string.IsNullOrWhiteSpace(NuevoNombreTarea))
+        {
+            NuevaTareaGuardar = new TodoItem
+            {
+                Name = NuevoNombreTarea,
+                Notes = "",
+                IsDone = false
+            };
+
+            var response = await servicioBaseDatos.GuardarTareaEnBD(NuevaTareaGuardar);
+            NuevoNombreTarea = string.Empty;
+
+            if (response > 0)
+            {
+                await Application.Current.MainPage.DisplayAlert("Tarea guardada exitosamente",
+                "Se ha guardado la tarea: " + NuevaTareaGuardar.Name, "OK");
+            }
+
+        }
+        else
+        {
+            await Application.Current.MainPage.DisplayAlert("Nombre de la tarea requerido",
+            "Por favor digite el nombre de la tarea a guardar", "OK");
+            return;
+        }
+    }
+}

@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\ProfeSantiago\\dotNetCore\\10) N Capas \u0026 Web Apis C#\\.Net Core Api\\ApiMiniCRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C743DEAC-7794-4E56-A2C0-7C40173B5826}|ApiMiniCRUD\\ApiMiniCRUD.csproj|d:\\profesantiago\\dotnetcore\\10) n capas \u0026 web apis c#\\.net core api\\apiminicrud\\apiminicrud\\models\\modelopersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C743DEAC-7794-4E56-A2C0-7C40173B5826}|ApiMiniCRUD\\ApiMiniCRUD.csproj|solutionrelative:apiminicrud\\models\\modelopersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C743DEAC-7794-4E56-A2C0-7C40173B5826}|ApiMiniCRUD\\ApiMiniCRUD.csproj|d:\\profesantiago\\dotnetcore\\10) n capas \u0026 web apis c#\\.net core api\\apiminicrud\\apiminicrud\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C743DEAC-7794-4E56-A2C0-7C40173B5826}|ApiMiniCRUD\\ApiMiniCRUD.csproj|solutionrelative:apiminicrud\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C743DEAC-7794-4E56-A2C0-7C40173B5826}|ApiMiniCRUD\\ApiMiniCRUD.csproj|d:\\profesantiago\\dotnetcore\\10) n capas \u0026 web apis c#\\.net core api\\apiminicrud\\apiminicrud\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C743DEAC-7794-4E56-A2C0-7C40173B5826}|ApiMiniCRUD\\ApiMiniCRUD.csproj|solutionrelative:apiminicrud\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C743DEAC-7794-4E56-A2C0-7C40173B5826}|ApiMiniCRUD\\ApiMiniCRUD.csproj|d:\\profesantiago\\dotnetcore\\10) n capas \u0026 web apis c#\\.net core api\\apiminicrud\\apiminicrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C743DEAC-7794-4E56-A2C0-7C40173B5826}|ApiMiniCRUD\\ApiMiniCRUD.csproj|solutionrelative:apiminicrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C743DEAC-7794-4E56-A2C0-7C40173B5826}|ApiMiniCRUD\\ApiMiniCRUD.csproj|d:\\profesantiago\\dotnetcore\\10) n capas \u0026 web apis c#\\.net core api\\apiminicrud\\apiminicrud\\models\\clasepersonadb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,6 +21,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{C743DEAC-7794-4E56-A2C0-7C40173B5826}|ApiMiniCRUD\\ApiMiniCRUD.csproj|d:\\profesantiago\\dotnetcore\\10) n capas \u0026 web apis c#\\.net core api\\apiminicrud\\apiminicrud\\apiminicrud.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{C743DEAC-7794-4E56-A2C0-7C40173B5826}|ApiMiniCRUD\\ApiMiniCRUD.csproj|solutionrelative:apiminicrud\\apiminicrud.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C743DEAC-7794-4E56-A2C0-7C40173B5826}|ApiMiniCRUD\\ApiMiniCRUD.csproj|d:\\profesantiago\\dotnetcore\\10) n capas \u0026 web apis c#\\.net core api\\apiminicrud\\apiminicrud\\models\\modelopersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C743DEAC-7794-4E56-A2C0-7C40173B5826}|ApiMiniCRUD\\ApiMiniCRUD.csproj|solutionrelative:apiminicrud\\models\\modelopersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,6 +39,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PersonaController.cs",
+              "DocumentMoniker": "D:\\ProfeSantiago\\dotNetCore\\10) N Capas \u0026 Web Apis C#\\.Net Core Api\\ApiMiniCRUD\\ApiMiniCRUD\\Controllers\\PersonaController.cs",
+              "RelativeDocumentMoniker": "ApiMiniCRUD\\Controllers\\PersonaController.cs",
+              "ToolTip": "D:\\ProfeSantiago\\dotNetCore\\10) N Capas \u0026 Web Apis C#\\.Net Core Api\\ApiMiniCRUD\\ApiMiniCRUD\\Controllers\\PersonaController.cs",
+              "RelativeToolTip": "ApiMiniCRUD\\Controllers\\PersonaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T00:58:06.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\ProfeSantiago\\dotNetCore\\10) N Capas \u0026 Web Apis C#\\.Net Core Api\\ApiMiniCRUD\\ApiMiniCRUD\\Startup.cs",
+              "RelativeDocumentMoniker": "ApiMiniCRUD\\Startup.cs",
+              "ToolTip": "D:\\ProfeSantiago\\dotNetCore\\10) N Capas \u0026 Web Apis C#\\.Net Core Api\\ApiMiniCRUD\\ApiMiniCRUD\\Startup.cs",
+              "RelativeToolTip": "ApiMiniCRUD\\Startup.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T00:57:59.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProfeSantiago\\dotNetCore\\10) N Capas \u0026 Web Apis C#\\.Net Core Api\\ApiMiniCRUD\\ApiMiniCRUD\\Program.cs",
+              "RelativeDocumentMoniker": "ApiMiniCRUD\\Program.cs",
+              "ToolTip": "D:\\ProfeSantiago\\dotNetCore\\10) N Capas \u0026 Web Apis C#\\.Net Core Api\\ApiMiniCRUD\\ApiMiniCRUD\\Program.cs",
+              "RelativeToolTip": "ApiMiniCRUD\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T00:57:51.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ModeloPersonas.cs",
               "DocumentMoniker": "D:\\ProfeSantiago\\dotNetCore\\10) N Capas \u0026 Web Apis C#\\.Net Core Api\\ApiMiniCRUD\\ApiMiniCRUD\\Models\\ModeloPersonas.cs",
               "RelativeDocumentMoniker": "ApiMiniCRUD\\Models\\ModeloPersonas.cs",
@@ -39,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ClasePersonaDB.cs",
               "DocumentMoniker": "D:\\ProfeSantiago\\dotNetCore\\10) N Capas \u0026 Web Apis C#\\.Net Core Api\\ApiMiniCRUD\\ApiMiniCRUD\\Models\\ClasePersonaDB.cs",
               "RelativeDocumentMoniker": "ApiMiniCRUD\\Models\\ClasePersonaDB.cs",
@@ -52,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ApiMiniCRUD",
               "DocumentMoniker": "D:\\ProfeSantiago\\dotNetCore\\10) N Capas \u0026 Web Apis C#\\.Net Core Api\\ApiMiniCRUD\\ApiMiniCRUD\\ApiMiniCRUD.csproj",
               "RelativeDocumentMoniker": "ApiMiniCRUD\\ApiMiniCRUD.csproj",

@@ -1,3 +1,5 @@
 is_global = true
 build_property.RootNamespace = ApiDLLMiniCRUD
-build_property.ProjectDir = C:\Proyectos\ProfeSantiago\dotNetCore\10) N Capas & Web Apis C#\5) .Net Core Consumir Api\ApiDLLMiniCRUD\ApiDLLMiniCRUD\
+build_property.ProjectDir = D:\ProfeSantiago\dotNetCore\10) N Capas & Web Apis C#\.Net Core Consumir Api\ApiDLLMiniCRUD\ApiDLLMiniCRUD\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

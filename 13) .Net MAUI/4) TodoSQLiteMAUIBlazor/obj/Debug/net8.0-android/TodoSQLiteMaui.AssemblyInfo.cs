@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TodoSQLiteMaui")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+356af7f3bd99aabfe4ee3a7f34ea1f9fd650cac5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+446c9999371f815c9c5255e820591c146f2ac933")]
 [assembly: System.Reflection.AssemblyProductAttribute("TodoSQLiteMaui")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TodoSQLiteMaui")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

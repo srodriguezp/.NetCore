@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\ProfeSantiago\\dotNetCore\\10) N Capas \u0026 Web Apis C#\\MVCWebApiClient\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A37C353A-94D4-4896-A0C4-73ED04CF8055}|MVCWebApiClient.csproj|d:\\profesantiago\\dotnetcore\\10) n capas \u0026 web apis c#\\mvcwebapiclient\\models\\apidatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37C353A-94D4-4896-A0C4-73ED04CF8055}|MVCWebApiClient.csproj|solutionrelative:models\\apidatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A37C353A-94D4-4896-A0C4-73ED04CF8055}|MVCWebApiClient.csproj|d:\\profesantiago\\dotnetcore\\10) n capas \u0026 web apis c#\\mvcwebapiclient\\controllers\\apiclientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A37C353A-94D4-4896-A0C4-73ED04CF8055}|MVCWebApiClient.csproj|solutionrelative:controllers\\apiclientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A37C353A-94D4-4896-A0C4-73ED04CF8055}|MVCWebApiClient.csproj|d:\\profesantiago\\dotnetcore\\10) n capas \u0026 web apis c#\\mvcwebapiclient\\views\\apiclient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A37C353A-94D4-4896-A0C4-73ED04CF8055}|MVCWebApiClient.csproj|solutionrelative:views\\apiclient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A37C353A-94D4-4896-A0C4-73ED04CF8055}|MVCWebApiClient.csproj|d:\\profesantiago\\dotnetcore\\10) n capas \u0026 web apis c#\\mvcwebapiclient\\models\\apidatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A37C353A-94D4-4896-A0C4-73ED04CF8055}|MVCWebApiClient.csproj|solutionrelative:models\\apidatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A37C353A-94D4-4896-A0C4-73ED04CF8055}|MVCWebApiClient.csproj|d:\\profesantiago\\dotnetcore\\10) n capas \u0026 web apis c#\\mvcwebapiclient\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\ProfeSantiago\\dotNetCore\\10) N Capas \u0026 Web Apis C#\\MVCWebApiClient\\Views\\ApiClient\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\ApiClient\\Index.cshtml",
@@ -38,12 +38,11 @@
               "RelativeToolTip": "Views\\ApiClient\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-19T01:37:59.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T01:37:59.171Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ApiDatos.cs",
               "DocumentMoniker": "D:\\ProfeSantiago\\dotNetCore\\10) N Capas \u0026 Web Apis C#\\MVCWebApiClient\\Models\\ApiDatos.cs",
               "RelativeDocumentMoniker": "Models\\ApiDatos.cs",
@@ -56,13 +55,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ApiClientController.cs",
               "DocumentMoniker": "D:\\ProfeSantiago\\dotNetCore\\10) N Capas \u0026 Web Apis C#\\MVCWebApiClient\\Controllers\\ApiClientController.cs",
               "RelativeDocumentMoniker": "Controllers\\ApiClientController.cs",
               "ToolTip": "D:\\ProfeSantiago\\dotNetCore\\10) N Capas \u0026 Web Apis C#\\MVCWebApiClient\\Controllers\\ApiClientController.cs",
               "RelativeToolTip": "Controllers\\ApiClientController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-19T01:31:04.026Z",
               "EditorCaption": ""
@@ -77,8 +76,7 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T01:30:00.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T01:30:00.793Z"
             }
           ]
         }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiMiniCRUD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+476addae363247b4b563043c86b0d816b67ba77e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+446c9999371f815c9c5255e820591c146f2ac933")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiMiniCRUD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiMiniCRUD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,16 @@
+﻿@page "/"
+@inject NavigationManager navigationManager
+
+<h1>Navegación entre páginas</h1>
+
+<button class="btn btn-success" @onclick="SiguientePagina"> Siguiente página </button>
+
+@code{
+    private async void SiguientePagina()
+    {
+        navigationManager.NavigateTo("counter");
+    }
+
+}
+
+

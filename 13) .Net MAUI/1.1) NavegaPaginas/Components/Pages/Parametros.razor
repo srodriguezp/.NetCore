@@ -1,0 +1,28 @@
+﻿
+@page "/parametros/{elParametro}"
+@inject NavigationManager navigationManager
+
+<h3>Paso de parámetros</h3>
+
+<p>Número pasado por parámetro: @numeroRecibido</p>
+
+<br />
+<br />
+<button class="btn btn-success" @onclick="SiguientePagina"> Siguiente página </button>
+
+@code {
+    [Parameter]
+    public string elParametro { get; set; }
+
+    private string numeroRecibido;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        numeroRecibido = elParametro;
+    }
+
+    private async void SiguientePagina()
+    {
+        navigationManager.NavigateTo("weather");
+    }
+}

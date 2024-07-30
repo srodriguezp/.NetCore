@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.1) NavegaPaginas", "1.1) NavegaPaginas.csproj", "{7399A104-1116-424C-932C-13446BF7D973}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7399A104-1116-424C-932C-13446BF7D973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7399A104-1116-424C-932C-13446BF7D973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7399A104-1116-424C-932C-13446BF7D973}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7399A104-1116-424C-932C-13446BF7D973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7399A104-1116-424C-932C-13446BF7D973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7399A104-1116-424C-932C-13446BF7D973}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F13CC09-41EF-4E82-B0D0-BD1D1663A97C}
+	EndGlobalSection
+EndGlobal

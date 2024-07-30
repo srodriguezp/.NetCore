@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\2) MauiBlazorFiles\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\MauiBlazorFiles.styles.css",
+      "PackagePath": "staticwebassets\\MauiBlazorFiles.styles.css"
+    },
+    {
+      "Id": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\2) MauiBlazorFiles\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\2) MauiBlazorFiles\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\2) MauiBlazorFiles\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\2) MauiBlazorFiles\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\2) MauiBlazorFiles\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.MauiBlazorFiles.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.build.MauiBlazorFiles.props",
+      "PackagePath": "build\\MauiBlazorFiles.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildMultiTargeting.MauiBlazorFiles.props",
+      "PackagePath": "buildMultiTargeting\\MauiBlazorFiles.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildTransitive.MauiBlazorFiles.props",
+      "PackagePath": "buildTransitive\\MauiBlazorFiles.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
