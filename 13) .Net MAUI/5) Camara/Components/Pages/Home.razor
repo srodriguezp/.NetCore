@@ -1,0 +1,51 @@
+﻿@page "/"
+@inject IJSRuntime js
+
+<h1>Uso de la cámara</h1>
+
+<button class="btn btn-dark" @onclick="TomaFoto"> Tomar Foto</button>
+
+<br />
+<br />
+
+<div class="card" style="width: 18rem;">
+    <img id="laImagen" src="images/@ArchivoFoto" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">Alan Turing, padre de la computación </h5>
+    </div>
+</div>
+
+@code {
+    private string ArchivoFoto = "alanturing.jpg";
+    FileResult fotoTomada;
+
+
+    private async Task TomaFoto()
+    {
+        var status = await Permissions.RequestAsync<Permissions.Camera>();
+
+
+        if (status == PermissionStatus.Granted)
+        {
+            if (DeviceInfo.Current.Platform == DevicePlatform.Android || DeviceInfo.Current.Platform == DevicePlatform.iOS)
+            {
+                fotoTomada = await MediaPicker.CapturePhotoAsync();
+            }
+            if (fotoTomada == null)
+            {
+                return;
+            }
+            using (var stream = await fotoTomada.OpenReadAsync())
+            {
+                var dotnetImageStream = new DotNetStreamReference(stream);
+                await js.InvokeAsync<bool>("captureImage", "laImagen", dotnetImageStream);
+            }
+        }
+        else
+        {
+            await Application.Current.MainPage.DisplayAlert("Error", "Permisos no habilitados", "Aceptar");
+            //return null;
+        }
+    }
+
+}
