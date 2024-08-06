@@ -1,50 +1,46 @@
-﻿@page "/updateTodo"
-
+﻿@page "/updateTodo/{elIdParametro}"
 @using TodoSQLiteMaui.Models
 @using TodoSQLiteMaui.Services
+@inject NavigationManager navigationManager
 
-<h3>Tarea a modificar </h3>
+<h3>Modificar tarea #@idRecibido</h3>
 
-<input placeholder="Escriba la tarea" @bind="NuevoNombreTarea" />
-<button @onclick="AgregarTarea">Guardar Tarea</button>
+<input placeholder="Escriba la tarea"  @bind="NombreTareaModificar" />
+<button @onclick="ModificarTarea">Guardar Tarea</button>
 <br />
 <br />
 
 @code {
-    private string NuevoNombreTarea;
-    TodoItem NuevaTareaGuardar;
+    [Parameter]
+    public string elIdParametro { get; set; }
+    
+    private string idRecibido;
+    private string NombreTareaModificar = string.Empty;
+    TodoItem TareaAModificar;
     TodoItemService servicioBaseDatos = new TodoItemService();
 
-    protected override async Task OnInitializedAsync()
+    protected override async Task OnParametersSetAsync()
     {
+        idRecibido = elIdParametro;
+        await Task.Delay(500);
+        TareaAModificar = await servicioBaseDatos.ConsultaUnaTarea(Int32.Parse(idRecibido));
+        NombreTareaModificar = TareaAModificar.Name;
     }
 
-    private async void AgregarTarea()
+    private async void ModificarTarea()
     {
-        if (!string.IsNullOrWhiteSpace(NuevoNombreTarea))
+        TareaAModificar.Name = NombreTareaModificar;
+        if (!string.IsNullOrWhiteSpace(TareaAModificar.Name))
         {
-            NuevaTareaGuardar = new TodoItem
-            {
-                Name = NuevoNombreTarea,
-                Notes = "",
-                IsDone = false
-            };
-
-            var response = await servicioBaseDatos.GuardarTareaEnBD(NuevaTareaGuardar);
-            NuevoNombreTarea = string.Empty;
+            var response = await servicioBaseDatos.GuardarTareaEnBD(TareaAModificar);
 
             if (response > 0)
             {
                 await Application.Current.MainPage.DisplayAlert("Tarea guardada exitosamente",
-                "Se ha guardado la tarea: " + NuevaTareaGuardar.Name, "OK");
+                "Se ha guardado la tarea: " + NombreTareaModificar, "OK");
             }
-
         }
-        else
-        {
-            await Application.Current.MainPage.DisplayAlert("Nombre de la tarea requerido",
-            "Por favor digite el nombre de la tarea a guardar", "OK");
-            return;
-        }
+        navigationManager.NavigateTo("/");
     }
+
 }

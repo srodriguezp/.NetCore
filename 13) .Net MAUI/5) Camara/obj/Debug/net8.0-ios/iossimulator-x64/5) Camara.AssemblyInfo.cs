@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("5) Camara")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+e1db1a2e5b826865aab688a898e646a2af559c7d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+da6df1402284448960121a1db4c07ef1c61a1b31")]
 [assembly: System.Reflection.AssemblyProductAttribute("5) Camara")]
 [assembly: System.Reflection.AssemblyTitleAttribute("5) Camara")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

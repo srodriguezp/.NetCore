@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{BD6A5D1B-12C6-4196-B32F-B5EC58B86093}|TodoSQLiteMaui.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD6A5D1B-12C6-4196-B32F-B5EC58B86093}|TodoSQLiteMaui.csproj|d:\\profesantiago\\dotnetcore\\13) .net maui\\4) todosqlitemauiblazor\\components\\pages\\updatetodo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BD6A5D1B-12C6-4196-B32F-B5EC58B86093}|TodoSQLiteMaui.csproj|solutionrelative:components\\pages\\updatetodo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BD6A5D1B-12C6-4196-B32F-B5EC58B86093}|TodoSQLiteMaui.csproj|d:\\profesantiago\\dotnetcore\\13) .net maui\\4) todosqlitemauiblazor\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6A5D1B-12C6-4196-B32F-B5EC58B86093}|TodoSQLiteMaui.csproj|solutionrelative:models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TodoItem.cs",
+              "DocumentMoniker": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\4) TodoSQLiteMAUIBlazor\\Models\\TodoItem.cs",
+              "RelativeDocumentMoniker": "Models\\TodoItem.cs",
+              "ToolTip": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\4) TodoSQLiteMAUIBlazor\\Models\\TodoItem.cs",
+              "RelativeToolTip": "Models\\TodoItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T03:56:20.9Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,22 +41,10 @@
               "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
               "ToolTip": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\4) TodoSQLiteMAUIBlazor\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "Components\\Pages\\Home.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB4AAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-29T18:34:41.518Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UpdateTodo.razor",
-              "DocumentMoniker": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\4) TodoSQLiteMAUIBlazor\\Components\\Pages\\UpdateTodo.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\UpdateTodo.razor",
-              "ToolTip": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\4) TodoSQLiteMAUIBlazor\\Components\\Pages\\UpdateTodo.razor",
-              "RelativeToolTip": "Components\\Pages\\UpdateTodo.razor",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-29T18:18:55.946Z"
             }
           ]
         }

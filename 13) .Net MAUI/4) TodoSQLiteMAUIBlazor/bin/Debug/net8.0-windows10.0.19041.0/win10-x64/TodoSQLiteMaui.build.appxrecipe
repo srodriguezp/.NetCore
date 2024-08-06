@@ -55,6 +55,24 @@
     <AppxPackagedFile Include="D:\ProfeSantiago\dotNetCore\13%29 .Net MAUI\4%29 TodoSQLiteMAUIBlazor\wwwroot\index.html">
       <PackagePath>wwwroot\index.html</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ProfeSantiago\dotNetCore\13%29 .Net MAUI\4%29 TodoSQLiteMAUIBlazor\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+      <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ProfeSantiago\dotNetCore\13%29 .Net MAUI\4%29 TodoSQLiteMAUIBlazor\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+      <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ProfeSantiago\dotNetCore\13%29 .Net MAUI\4%29 TodoSQLiteMAUIBlazor\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+      <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ProfeSantiago\dotNetCore\13%29 .Net MAUI\4%29 TodoSQLiteMAUIBlazor\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+      <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ProfeSantiago\dotNetCore\13%29 .Net MAUI\4%29 TodoSQLiteMAUIBlazor\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+      <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ProfeSantiago\dotNetCore\13%29 .Net MAUI\4%29 TodoSQLiteMAUIBlazor\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+      <PackagePath>OpenSans-Regular.ttf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ProfeSantiago\dotNetCore\13%29 .Net MAUI\4%29 TodoSQLiteMAUIBlazor\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
     </AppxPackagedFile>

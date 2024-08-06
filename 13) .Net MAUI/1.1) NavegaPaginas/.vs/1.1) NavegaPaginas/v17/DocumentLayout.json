@@ -11,16 +11,16 @@
       "RelativeMoniker": "D:0:0:{7399A104-1116-424C-932C-13446BF7D973}|1.1) NavegaPaginas.csproj|solutionrelative:components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7399A104-1116-424C-932C-13446BF7D973}|1.1) NavegaPaginas.csproj|d:\\profesantiago\\dotnetcore\\13) .net maui\\1.1) navegapaginas\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7399A104-1116-424C-932C-13446BF7D973}|1.1) NavegaPaginas.csproj|solutionrelative:components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7399A104-1116-424C-932C-13446BF7D973}|1.1) NavegaPaginas.csproj|d:\\profesantiago\\dotnetcore\\13) .net maui\\1.1) navegapaginas\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7399A104-1116-424C-932C-13446BF7D973}|1.1) NavegaPaginas.csproj|solutionrelative:components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7399A104-1116-424C-932C-13446BF7D973}|1.1) NavegaPaginas.csproj|d:\\profesantiago\\dotnetcore\\13) .net maui\\1.1) navegapaginas\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7399A104-1116-424C-932C-13446BF7D973}|1.1) NavegaPaginas.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7399A104-1116-424C-932C-13446BF7D973}|1.1) NavegaPaginas.csproj|d:\\profesantiago\\dotnetcore\\13) .net maui\\1.1) navegapaginas\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7399A104-1116-424C-932C-13446BF7D973}|1.1) NavegaPaginas.csproj|solutionrelative:components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,45 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Parametros.razor",
-              "DocumentMoniker": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\1.1) NavegaPaginas\\Components\\Pages\\Parametros.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Parametros.razor",
-              "ToolTip": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\1.1) NavegaPaginas\\Components\\Pages\\Parametros.razor",
-              "RelativeToolTip": "Components\\Pages\\Parametros.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-30T03:44:26.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\1.1) NavegaPaginas\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
-              "ToolTip": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\1.1) NavegaPaginas\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-30T02:43:40.459Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Weather.razor",
-              "DocumentMoniker": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\1.1) NavegaPaginas\\Components\\Pages\\Weather.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Weather.razor",
-              "ToolTip": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\1.1) NavegaPaginas\\Components\\Pages\\Weather.razor",
-              "RelativeToolTip": "Components\\Pages\\Weather.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-30T02:40:41.186Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -77,21 +40,62 @@
               "RelativeDocumentMoniker": "Components\\Pages\\Counter.razor",
               "ToolTip": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\1.1) NavegaPaginas\\Components\\Pages\\Counter.razor",
               "RelativeToolTip": "Components\\Pages\\Counter.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-30T01:54:10.776Z"
+              "WhenOpened": "2024-07-30T01:54:10.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Parametros.razor",
+              "DocumentMoniker": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\1.1) NavegaPaginas\\Components\\Pages\\Parametros.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Parametros.razor",
+              "ToolTip": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\1.1) NavegaPaginas\\Components\\Pages\\Parametros.razor",
+              "RelativeToolTip": "Components\\Pages\\Parametros.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T03:44:26.247Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\1.1) NavegaPaginas\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
+              "ToolTip": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\1.1) NavegaPaginas\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T02:43:40.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\1.1) NavegaPaginas\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Weather.razor",
+              "ToolTip": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\1.1) NavegaPaginas\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "Components\\Pages\\Weather.razor",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T02:40:41.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Home.razor",
               "DocumentMoniker": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\1.1) NavegaPaginas\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
               "ToolTip": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\1.1) NavegaPaginas\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "Components\\Pages\\Home.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-30T01:40:24.983Z"
+              "WhenOpened": "2024-07-30T01:40:24.983Z",
+              "EditorCaption": ""
             }
           ]
         }

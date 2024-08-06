@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("1.1) NavegaPaginas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+446c9999371f815c9c5255e820591c146f2ac933")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+da6df1402284448960121a1db4c07ef1c61a1b31")]
 [assembly: System.Reflection.AssemblyProductAttribute("1.1) NavegaPaginas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("1.1) NavegaPaginas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

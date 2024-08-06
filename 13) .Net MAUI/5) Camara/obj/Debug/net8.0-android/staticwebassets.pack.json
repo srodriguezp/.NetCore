@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\5) Camara\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\5) Camara.styles.css",
+      "PackagePath": "staticwebassets\\5) Camara.styles.css"
+    },
+    {
+      "Id": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\5) Camara\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\5) Camara\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\5) Camara\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\5) Camara\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\5) Camara\\wwwroot\\images\\alanturing.jpg",
+      "PackagePath": "staticwebassets\\images\\alanturing.jpg"
+    },
+    {
+      "Id": "D:\\ProfeSantiago\\dotNetCore\\13) .Net MAUI\\5) Camara\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.5) Camara.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.build.5) Camara.props",
+      "PackagePath": "build\\5) Camara.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.buildMultiTargeting.5) Camara.props",
+      "PackagePath": "buildMultiTargeting\\5) Camara.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.buildTransitive.5) Camara.props",
+      "PackagePath": "buildTransitive\\5) Camara.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
